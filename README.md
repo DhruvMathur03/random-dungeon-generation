@@ -41,4 +41,5 @@ The function returns chambers_corner_tiles, a 2D vector containing the corner ti
 
 ## Usage
 
-To use this algorithm, simply provide a 2D vector of strings representing the floor map, where '.' denotes floor cells, '|' and '-' denote wall cells, and other characters represent obstacles or empty spaces. Call the detect_chamber_corner_tiles() function with the floor map as a parameter. The function will return a 2D vector containing the corner tiles of each chamber in the floor map.
+To use the dungeon detection algorithm, simply provide a 2D vector of strings representing the floor map, where '.' denotes floor cells, '|' and '-' denote wall cells, and other characters represent obstacles or empty spaces. Call the detect_chamber_corner_tiles() function with the floor map as a parameter. The function will return a 2D vector containing the corner tiles of each chamber in the floor map.
+
